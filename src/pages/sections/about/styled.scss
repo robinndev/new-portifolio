@@ -1,0 +1,114 @@
+.about-container {
+  max-width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-image: url(../../../assets/background.png);
+  background-size: cover;
+
+  .teste {
+    display: flex;
+    margin-top: 70px;
+  }
+  
+  .text-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    div {
+      width: 65%;
+      text-align: initial;
+
+      color: white;
+
+      .dev-text {
+        color: #8257E6;
+        font-size: 1.3rem;
+      }
+
+      .greetings-text {
+        font-size: 1.3rem;
+      }
+
+      .my-name_text {
+        font-size: 3.8rem;
+      }
+
+      p {
+        font-size: 1.3rem;
+      }
+
+      .hire-button {
+        padding: 15px;
+        font-size: 16px;
+        color: white;
+        font-weight: 600;
+        margin-top: 15px;
+        border-radius: 30px;
+        border: none;
+        background-color: #8257E6;
+        width: 180px;
+      }
+    }
+
+  }
+
+  .photo-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .my-image {
+      width: 60%;
+    }
+  }
+  .teste2 {
+    margin-bottom: 5px;
+
+    img {
+      width: 50px;
+    }
+
+    .image-icon {
+      color: white;
+    }
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  
+  .about-container {
+    background-position: initial center;
+    justify-content: center;
+    height: auto;
+
+    .teste { 
+      margin-top: 40px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .text-container {
+      width: 100%;
+
+      div {
+        width: 90%;
+        text-align: center;
+      }
+    }
+
+    .photo-container {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+
+  .teste2 {
+  }
+}
