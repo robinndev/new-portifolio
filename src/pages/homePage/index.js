@@ -3,6 +3,7 @@ import './styled.scss'
 import image from '../../assets/logo.png'
 
 import { About } from "../sections/about";
+import { ProjectsSuccessed } from "../sections/projectsSuccessed";
 
 export function HomePage() {
   return (
@@ -21,6 +22,7 @@ export function HomePage() {
         </div>
       </header>
       <About/>
+      <ProjectsSuccessed/>
     </div>
   )
 }

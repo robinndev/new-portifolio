@@ -1,6 +1,7 @@
 import React from "react";
 import photo from '../../../assets/my-icon.png'
 import icon from '../../../assets/mouse-cursor.png'
+import gif from '../../../assets/developerTeste.gif'
 import './styled.scss'
 
 export function About() {
@@ -23,7 +24,6 @@ export function About() {
               aliquam ipsum ac, posuere massa. Donec eu facilisis
               tellus, a gravida lorem. Fusce ut lectus vitae mi
               pharetra varius. Etiam interdum in mauris et
-              pellentesque. Donec scelerisque scelerisque metus
             </p>
             <br />
             <button className="hire-button">HIRE ME</button>
@@ -31,7 +31,7 @@ export function About() {
         </div>
 
         <div className="photo-container">
-          <img className="my-image" src={photo} alt="" />
+          <img className="my-image" src={gif} alt="" />
         </div>
       </div>
 
